@@ -134,6 +134,7 @@ main{
     width: 97%;
     margin: 0 auto;
     margin-top: 50px; 
+    margin-bottom: 50px;
     display: flex;
     justify-content: center;
 }
@@ -142,4 +143,38 @@ main{
     width: 70%;
     font-size: 20px;
     font-weight: 500;
+}
+
+footer{
+    width: 97%;
+    margin: 0 auto;
+    background-color: var(--primary-color);
+}
+
+footer .Redes{
+    width: 250px;
+    padding: 20px;
+    display: flex;
+}
+
+footer .Redes-iconos img{
+    padding: 0 20px 10px 0;
+}
+
+footer .Redes-iconos img:last-child{
+    padding: 0 10px 0 0;
+}
+
+footer .Redes-info{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+footer .Redes-info p{
+    color: white;
+}
+
+footer .DerechosReservados{
+    display: inline;
 }
