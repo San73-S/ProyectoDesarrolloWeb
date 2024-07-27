@@ -14,13 +14,16 @@
     #173e79
     #173c74
     */
-  }
+}
 
 body{
     background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(226,226,226,1) 110%);
     font-family: "Montserrat", sans-serif;
 }
 
+/*
+* ----------------------------- ESTILOS NAVBAR -----------------------------
+*/
 nav{
     width: 97%;
     display: flex;
@@ -29,13 +32,13 @@ nav{
 }
 
 .Nav-icono{
-    height: 40px;
+    height: 60px;
     margin-top: 5px;
 }
 
 .Nav-fondo{
     width: 60%;
-    height: 40px;
+    height: 60px;
     display: flex;
     justify-content:flex-end;
     align-items: center;
@@ -47,16 +50,82 @@ nav{
 
 .Nav-fondo ul li{
     display: inline-block;
-    margin-right: 15px;
+    margin-right: 35px;
 }
 
 .Nav-fondo ul li a{
     text-decoration: none;
-    font-size: 12px;
+    font-size: 16px;
     color: white;
     padding: 1px;
 }
 
 .Nav-fondo ul li a:hover{
-    border-bottom: 1.4px solid white ;
+    border-bottom: 1px solid white ;
+}
+
+/*
+* ----------------------------- ESTILOS MAIN -----------------------------
+*/
+
+main{
+    width: 97%;
+    margin: 0 auto;
+    margin-top: 16px;    
+}
+
+.Banner-fondo{
+    width: 100%;
+    height: 89vh;
+    background-image: url(../assets/images/Banner-Fondo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.Banner-informacion{
+    width: 40%;
+    height: 50%;
+    margin-right: 40px;
+}
+
+.Banner-informacion p, h1{
+    font-size: 45px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+.Banner-informacion article{
+    margin-top: 20px;
+    font-size: 25px;
+    color: white;
+}
+
+.Banner-boton{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.Banner-boton button{
+    padding: 15px 70px ;
+    border: 0px;
+    background-color: white;
+    border-radius: 15px;    
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.336);
+}
+
+.Banner-boton button a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.Banner-boton button:hover{
+    scale: 1.1;
 }
