@@ -64,6 +64,50 @@ nav{
     border-bottom: 1px solid white ;
 }
 
+/*ESTILOS PARA PAGINA INICIO*/
+
+.Nav-fondo-alternativo{
+    width: 60%;
+    height: 60px;
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    background-image: url(../assets/images/Nav-Fondo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Nav-fondo-alternativo .Nav-buscador{
+    width: 250px;
+    display: flex;
+    background-color: white;
+    padding: 5px 5px;
+    margin-right: 100px;
+    border-radius: 8px;
+}
+
+.Nav-fondo-alternativo .Nav-buscador img {
+    width: 20px;
+    margin-right: 15px;
+}
+
+.Nav-fondo-alternativo .Nav-buscador input[type= "text"]{
+    width: 190px;
+    border: 0;
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.Nav-fondo-alternativo .Nav-buscador input[type= "text"]:focus{
+    outline: none;
+    border: 1px solid var(--primary-color);
+}
+
+.Nav-fondo-alternativo .iconos{
+    width: 35px;
+    margin-right: 35px;
+}
+
 /*
 * ----------------------------- ESTILOS MAIN -----------------------------
 */
@@ -144,6 +188,10 @@ main{
     font-size: 20px;
     font-weight: 500;
 }
+
+/*
+* ----------------------------- ESTILOS FOOTER -----------------------------
+*/
 
 footer{
     width: 97%;
