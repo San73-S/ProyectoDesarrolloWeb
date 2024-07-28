@@ -189,6 +189,60 @@ main{
     font-weight: 500;
 }
 
+/*ESTILOS PARA PAGINA INICIO*/
+
+.Contenedor{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #2a5390;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 30px;
+}
+
+.tarjeta{
+    width: 90%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.tarjeta .tarjeta-infoUsuario{
+    background-color: aqua;
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;    
+}
+
+.tarjeta .tarjeta-imagen{
+    background-color: rebeccapurple;
+    width: 90%;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.tarjeta .tarjeta-informacion{
+    background-color: red;
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.tarjeta .botones{
+    background-color: blue;
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.a { grid-column: 1 / 2; grid-row: 1 / 2; }
+.b { grid-column: 2 / 3; grid-row: 1 / 2; }
+.c { grid-column: 3 / 4; grid-row: 1 / 2; }
+.d { grid-column: 1 / 2; grid-row: 2 / 3; }
+.e { grid-column: 2 / 3; grid-row: 2 / 3; }
+.f { grid-column: 3 / 4; grid-row: 2 / 3; }
+
+
 /*
 * ----------------------------- ESTILOS FOOTER -----------------------------
 */
