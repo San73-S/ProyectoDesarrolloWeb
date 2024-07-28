@@ -149,12 +149,15 @@ footer{
     width: 97%;
     margin: 0 auto;
     background-color: var(--primary-color);
+    display: flex;
+    justify-content: flex-start;
 }
 
 footer .Redes{
     width: 250px;
     padding: 20px;
     display: flex;
+
 }
 
 footer .Redes-iconos img{
@@ -176,5 +179,11 @@ footer .Redes-info p{
 }
 
 footer .DerechosReservados{
-    display: inline;
+    width: 70%;
+    text-align: center;
+    align-self: center;
+}
+
+footer .DerechosReservados p{
+    color: white;
 }
