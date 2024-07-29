@@ -122,7 +122,6 @@ main{
     width: 100%;
     height: 89vh;
     background-image: url(../assets/images/Banner-Fondo.png);
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -293,7 +292,14 @@ main{
     height: 60px;
     margin: 0 auto;
     margin-top: 5px;
-    border-bottom: 2px solid lightgrey;
+}
+
+.barra{
+    border-bottom: 2px solid lightgrey; 
+}
+
+.noBarra{
+    border-bottom: none !important;
 }
 
 .tarjeta-informacion p{
@@ -337,6 +343,39 @@ main{
 .d { grid-column: 1 / 2; grid-row: 2 / 3; }
 .e { grid-column: 2 / 3; grid-row: 2 / 3; }
 .f { grid-column: 3 / 4; grid-row: 2 / 3; }
+
+/*ESTILOS REFUGIOS*/
+
+.seguir{
+    width: 20% !important;
+}
+
+.dosColumnas{
+    grid-template-columns: repeat(2, 1fr) !important; 
+    grid-template-rows: repeat(1, 1fr) !important; 
+}
+
+.tarjeta-imagenesContenedor{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.tarjeta-imagenesContenedor div{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.tarjeta-imagenesContenedor img{
+    width: 100%;
+}
 
 /*
 * ----------------------------- ESTILOS FOOTER -----------------------------
