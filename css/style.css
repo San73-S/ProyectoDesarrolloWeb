@@ -486,3 +486,174 @@ footer .DerechosReservados{
 footer .DerechosReservados p{
     color: white;
 }
+
+/*RESPONSIVE*/
+
+@media (min-width: 300px) and (max-width: 530px){
+
+    .hamburguesa{
+        width: 25px;
+        height: 25px;
+        background-image: url(../assets/icons/menu.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-right: 20px;
+    }
+
+    .Nav-fondo ul{
+        display: none;
+    }
+
+    .Banner-informacion{
+        height: 90% !important;
+    }
+    .Banner-informacion p, h1{
+        font-size: 35px;
+    }
+
+    .Redes-iconos img{
+        width: 40px;
+        padding: 0;
+    }
+    footer .Redes-iconos img:last-child{
+        width: 20px;
+        padding: 0;
+    }
+
+    footer .Redes-info p{
+        font-size: 14px;
+    }
+
+    footer .DerechosReservados p{
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 700px) and (min-width: 600px){
+    .Nav-fondo ul li a{
+        font-size: 0.8em !important;
+    }
+}
+
+
+@media (max-width: 700px) {
+    nav{
+        width: 100%;
+    }
+    .Nav-icono{
+        margin-left: 10px;
+    }
+    .Nav-fondo{
+        width: 90%;
+        background-position: initial;
+    }
+    .Nav-fondo ul li{
+        margin-right: 10px;
+    }
+    .Nav-fondo ul li a{
+        font-size: 0.7em;
+    }
+
+    main{
+        width: 100%;
+    }
+    .Banner-fondo{
+        height: 170vh;
+        background-image: url(../assets/images/Banner.jpg);
+    }
+    .Banner-informacion{
+        width: 80%;
+        height: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+    }
+
+    footer{
+        width: 100%;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+    nav{
+        width: 100%;
+    }
+    .Nav-icono{
+        margin-left: 10px;
+    }
+    .Nav-fondo{
+        width: 90%;
+        background-position: initial;
+    }
+    .Nav-fondo ul li{
+        margin-right: 10px;
+    }
+    .Nav-fondo ul li a{
+        font-size: 0.9em;
+    }
+
+    main{
+        width: 100%;
+    }
+    .Banner-fondo{
+        width: 100%;
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .Banner-informacion{
+        width: 40%;
+        height: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .Banner-informacion p, h1{
+        font-size: 30px;
+    }
+
+    .Banner-informacion article{
+        font-size: 20px !important;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1320px) {
+    nav{
+        width: 100%;
+    }
+    .Nav-icono{
+        margin-left: 10px;
+    }
+    .Nav-fondo{
+        width: 60%;
+        background-position: initial;
+    }
+    .Nav-fondo ul li{
+        margin-right: 10px;
+    }
+    .Nav-fondo ul li a{
+        font-size: 0.9em;
+    }
+    .Banner-informacion{
+        height: 80%;
+    }
+
+}
+
+@media (min-width: 1000px) and (max-width: 1260px){
+    .Banner-informacion p, h1{
+        font-size: 40px;
+    }
+    .Banner-informacion{
+        height: 80%;
+    }
+    .Banner-informacion article{
+        font-size: 22px;
+    }
+} 
