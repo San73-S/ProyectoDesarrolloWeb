@@ -505,6 +505,16 @@ footer .DerechosReservados p{
         display: none;
     }
 
+    .Nav-buscador form{
+        display: none !important;
+    }
+
+    .Nav-buscador{
+        width: 30px !important;
+        padding: 5px !important;
+        margin-right: 50px !important;
+    }
+
     .Banner-informacion{
         height: 90% !important;
     }
@@ -516,6 +526,19 @@ footer .DerechosReservados p{
         width: 40px;
         padding: 0;
     }
+
+    .tarjeta-informacion{
+        height: 5% !important;
+    }
+
+    .tarjeta .ajuste .botones-iconos{
+        display: inline-block;
+    }
+
+    .navegacion{
+        width: 70%;
+    }
+
     footer .Redes-iconos img:last-child{
         width: 20px;
         padding: 0;
@@ -529,6 +552,25 @@ footer .DerechosReservados p{
         font-size: 14px;
     }
 
+}
+
+@media (min-width: 530px) and (max-width: 700px) {
+    .Nav-buscador{
+        width: 130px !important;
+        margin-right: 20px !important;
+    }
+    .Nav-fondo-alternativo .Nav-buscador input[type= "text"]{
+        width: 70px;    
+    }
+    .tarjeta .ajuste .botones-iconos{
+        display: inline-block;
+    }
+    .navegacion{
+        width: 70%;
+    }
+    .tarjeta-informacion{
+        height: 5% !important;
+    }
 }
 
 @media (max-width: 700px) and (min-width: 600px){
@@ -571,7 +613,6 @@ footer .DerechosReservados p{
         justify-content: end;
         align-items: center;
     }
-
     footer{
         width: 100%;
     }
@@ -620,6 +661,27 @@ footer .DerechosReservados p{
 
     .Banner-informacion article{
         font-size: 20px !important;
+    }
+
+    .Nav-buscador{
+        width: 175px !important;
+        margin-right: 35px !important;
+    }
+
+    .Nav-fondo-alternativo .Nav-buscador input[type= "text"]{
+        width: 120px;    
+    }
+
+    .tamañoAumentado {
+        width: 80% !important;
+    }
+
+    .tarjeta .ajuste .botones-iconos{
+        display: block;
+    }
+
+    .navegacion{
+        width: 70%;
     }
 }
 
